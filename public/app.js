@@ -45,7 +45,7 @@ blockstackChat = {};
                 if (err) {
                   console.log(err);
                 } else {
-                  window.location = "https://https://develop--hungry-lamarr-cfbb1a.netlify.com/#/room/!MiaZvYagNIApUrnazk:openintents.modular.im?via=openintents.modular.im&via=matrix.org&via=matrix.vsund.de&via=hotline.blin.gg&via=matrix.privy.cafe"
+                  window.location = "https://develop--hungry-lamarr-cfbb1a.netlify.com/#/room/!MiaZvYagNIApUrnazk:openintents.modular.im?via=openintents.modular.im&via=matrix.org&via=matrix.vsund.de&via=hotline.blin.gg&via=matrix.privy.cafe"
                 }
               });
             })
