@@ -31,7 +31,7 @@ blockstackChat = {};
             },
             user: result.username,
             password: result.password,
-            initial_device_display_name: "From OI Chat Account Manager"
+            initial_device_display_name: "From Privy Beam Chat Account Manager"
           }, function (err, data) {
             console.log("err", err)
             console.log("data", data)
@@ -45,7 +45,7 @@ blockstackChat = {};
                 if (err) {
                   console.log(err);
                 } else {
-                  window.location = "https://chat.openintents.org/#/room/!MiaZvYagNIApUrnazk:openintents.modular.im?via=openintents.modular.im&via=matrix.org&via=matrix.vsund.de"
+                  window.location = "https://https://develop--hungry-lamarr-cfbb1a.netlify.com/#/room/!MiaZvYagNIApUrnazk:openintents.modular.im?via=openintents.modular.im&via=matrix.org&via=matrix.vsund.de&via=hotline.blin.gg&via=matrix.privy.cafe"
                 }
               });
             })
