@@ -1,6 +1,6 @@
 {
   "name": "matrix-blockstack-auth",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Blockstack-Matrix Account Manager",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/friedger/matrix-blockstack-auth.git"
+    "url": "git+https://github.com/privy-cafe/matrix-blockstack-auth.git"
   },
-  "author": "",
+  "author": "Openintents",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/friedger/matrix-blockstack-auth/issues"
+    "url": "https://github.com/privy-cafe/matrix-blockstack-auth/issues"
   },
   "homepage": "https://github.com/friedger/matrix-blockstack-auth/#readme",
   "devDependencies": {
@@ -25,6 +25,6 @@
   "dependencies": {
     "blockstack": "^19.2.1",
     "matrix-js-sdk": "^0.14.2",
-    "sourceify": "^0.1.0"
+    "sourceify": "^1.0.0"
   }
 }
