@@ -23,7 +23,7 @@
     "opn": "^4.0.2"
   },
   "dependencies": {
-    "blockstack": "^19.1.0",
+    "blockstack": "^19.2.1",
     "matrix-js-sdk": "^0.14.2",
     "sourceify": "^0.1.0"
   }
