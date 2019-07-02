@@ -1,7 +1,7 @@
 {
-  "name": "OI Chat Account",
+  "name": "Privy Chat Account",
   "start_url": "index.html",
-  "description": "OI Chat Account Manager",
+  "description": "Privy fork of OIchat Chat Account Manager",
   "icons": [{
     "src": "icon-192x192.png",
     "sizes": "192x192",
