@@ -72,6 +72,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById('section-1').style.display = 'none'
     document.getElementById('section-2').style.display = 'block'
   }
+  function prevent_csrf(name, secret) {
+	  $('form').prepend('<input type="hidden" name="' + name + '" value="' + secret + '" />');
+  }
+
+
 
   if (blockstack.isUserSignedIn()) {
     var userData = blockstack.loadUserData()
