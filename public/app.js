@@ -21,7 +21,7 @@ blockstackChat = {};
 
   blockstackChat.sendMessage = function(userData, roomId, content){
     console.log("creating client")
-      var client = matrixcs.createClient("https://openintents.modular.im");
+      var client = matrixcs.createClient("https://develop--hungry-lamarr-cfbb1a.netlify.com");
       blockstackChat.getOTP(userData).then(result => {
         client.login("m.login.password",
           {
@@ -72,11 +72,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     document.getElementById('section-1').style.display = 'none'
     document.getElementById('section-2').style.display = 'block'
   }
-  function prevent_csrf(name, secret) {
-	  $('form').prepend('<input type="hidden" name="' + name + '" value="' + secret + '" />');
-  }
-
-
 
   if (blockstack.isUserSignedIn()) {
     var userData = blockstack.loadUserData()
