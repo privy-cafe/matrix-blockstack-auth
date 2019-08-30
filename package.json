@@ -20,12 +20,12 @@
   "devDependencies": {
     "browserify": "^16.2.3",
     "express": "^4.17.1",
-    "open": "^6.0.0",
+    "open": "^6.4.0",
     "opn": "^6.0.0"
   },
   "dependencies": {
-    "blockstack": "^19.2.1",
-    "matrix-js-sdk": "^0.14.2",
+    "blockstack": "^19.3.0",
+    "matrix-js-sdk": "^2.3.0",
     "sourceify": "^1.0.0",
     "sourcify": "^1.0.1"
   }
